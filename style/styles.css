@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(80deg, rgb(0, 0, 27) 0%, rgb(3, 0, 19) 100%);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center{
+    background: rgb(0,35,56);
+    background: linear-gradient(80deg, rgb(37, 7, 85) 0%, rgb(4, 17, 61) 100%);
+    padding: 10px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 119, 255, 0.507);
+}
+
+.texto{
+    padding: 40px 100px;
+}
+
+article{
+    text-align: right;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+a:hover{
+    color: #039aff;
+}
+
+#especial {
+    border: 1px solid #5be1f3;
+    background: linear-gradient(132deg, rgb(1, 2, 51) 0%, rgb(0, 85, 182) 100%);
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    background-size: 200% 200%;
+    background-position: 0% 100%;
+}
+
+#especial:hover {
+    background-position: 100% 0%;
+    background-size: 150% 150%;
+    color: #ffffff;
+}
+
+h1{
+    font-weight: 200;
+}
+
+/* ---------------------------------- TOPO ---------------------------------- */
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 25px;
+    line-height: 35px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: #00c3ff;
+}
+
+p{
+    /* margin-top: 50px; */
+    text-align: justify;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 450px;
+    border-radius: 5%;
+}
+
+#submit{
+    background: linear-gradient(132deg, rgb(1, 2, 51) 0%, rgb(0, 85, 182) 100%);
+    display: flex;
+    width: 150px;
+    margin-top: 30px;
+    border: 1px solid #5be1f3;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-family: poppinsmedium;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+}
+#submit:hover{
+    background-position: 100% 50%;
+    background-size: 150% 150%;
+    cursor: pointer;
+}
+
+/* ---------------------------------- TEXT ---------------------------------- */
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
